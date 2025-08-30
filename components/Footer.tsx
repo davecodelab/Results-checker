@@ -16,9 +16,6 @@ export default function Footer() {
           <p className="flex items-center space-x-2">
             <Mail size={16} /> <span>support@checkershub.com</span>
           </p>
-          <p className="flex items-center space-x-2">
-            <span>WhatsApp: +233 55 944 1309</span>
-          </p>
         </div>
 
         {/* Logo + Links / Services */}
