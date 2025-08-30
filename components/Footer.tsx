@@ -27,41 +27,41 @@ export default function Footer() {
             Checkers Hub
           </Link>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm md:text-base text-gray-200 justify-center">
-            <a href="/" className="hover:text-white">BECE Results</a>
-            <a href="/" className="hover:text-white">WASSCE / NOV-DEC Results</a>
+            <Link href="/" className="hover:text-white">BECE Results</Link>
+            <Link href="/" className="hover:text-white">WASSCE / NOV-DEC Results</Link>
           </div>
         </div>
 
         {/* Social Media */}
         <div className="flex space-x-4 justify-center md:justify-end">
-          <a
+          <Link
             href="https://instagram.com"
             target="_blank"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-tr from-pink-500 to-yellow-500 hover:scale-110 transition-transform"
           >
             <FaInstagram size={18} color="white" />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://twitter.com"
             target="_blank"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-black hover:scale-110 transition-transform"
           >
             <FaXTwitter size={18} color="white" />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://facebook.com"
             target="_blank"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 hover:scale-110 transition-transform"
           >
             <FaFacebookF size={18} color="white" />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://wa.me/233559441309"
             target="_blank"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-green-500 hover:scale-110 transition-transform"
           >
             <FaWhatsapp size={18} color="white" />
-          </a>
+          </Link>
         </div>
       </div>
 
